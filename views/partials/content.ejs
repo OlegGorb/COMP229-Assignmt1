@@ -1,0 +1,111 @@
+  <main class="container">
+
+    <div class="row">
+      <div class="col">
+        
+        <div class="jumbotron" style="overflow: auto;">
+          <% if (title == "Home") { %>
+            <h1  style="text-align: center;">Mission</h1>
+            <br>
+            <h3 >My mission is to deliver professional, reliable, user-friendly software products.</h3>
+            <h4  style="position: absolute;; bottom: 30px;"><a class="nav-link" href="/about"><i class="fas fa-angle-double-right"></i> About me <i class="fas fa-angle-double-left"></i><span class="sr-only">(current)</span></a> </h3>
+          <% } if (title == "About") { %>
+            <h1  style="text-align: center;">Info</h1>
+            <br>
+            <img src="assets/images/myPhoto.png" alt="my photo" style="float: right; width: 40%;">
+            <br>
+            <h3 >Oleg Gorbunov</h3>
+            <br>
+            <h4>Student: Centennial College</h4>
+            <h4>Major: Software Engineering Technology</h4>
+            <h4>Resume: Currently Unvailable</h4>
+          <% } if (title == "Projects") { %>
+            <h1  style="text-align: center;">Projects</h1>
+            <h3  style="text-align: center;">I would like to work on</h3>
+            <br>
+            <br>
+            <h4  style="text-align: center;">Carmanufacturer website</h4>
+            <br>
+            <img src="assets/images/carMan.png" alt="my photo" style="width: 50%; margin-left: auto; margin-right: auto; display: block;">
+            <h4  class="textStyle1">I would like to design and build websites for car manufacturers.</h4>
+            <br>
+            <br>
+            <h4  style="text-align: center;">Mobile aplication</h4>
+            <br>
+            <img src="assets/images/mobDev.png" alt="my photo" style="width: 50%; margin-left: auto; margin-right: auto; display: block;">
+            <h4  class="textStyle1">I plan to build my own IOS application.</h4>
+            <br>
+            <br>
+            <h4  style="text-align: center;">Artificial Intelegence</h4>
+            <br>
+            <img src="assets/images/AI.jpg" alt="my photo" style="width: 50%; margin-left: auto; margin-right: auto; display: block;">
+            <h4  class="textStyle1">I would also like to work on artificial intelegence.</h4>    
+          <% } if (title == "Services") { %>
+            <h1 class="textStyle1">Services</h1>
+            <br>
+            <h3 class="textStyle1">What I can offer.</h3>
+            <br>
+            <h5 class="textStyle1" style="text-align: left;"><i class="fas fa-desktop"></i> &nbsp; Develop desctop application on C#</i></h5>
+            <br>
+            <h5 class="textStyle1" style="text-align: left;"><i class="fas fa-globe"></i> &nbsp; Develop website or application usin HTML CSS JavaScript NodeJS ExpressJS</h5>
+            <br>
+            <h5 class="textStyle1" style="text-align: left;"><i class="fas fa-mobile-alt"></i> &nbsp; Develop mobile application with Swift or C#</i></h5>
+          <% } if (title == "Contact") { %>
+            <h1 class="textStyle1">Contact Info</h1>
+            <br>
+            <br>
+            <h5 class="textStyle1" style="text-align: left;">Phone: +1(416)579-69-07</h5>
+            <h5 class="textStyle1" style="text-align: left;">Email: oleg.gorb96@gmail.com</h5>
+            <br>
+            <h3 class="textStyle1">Or you can use the Form bellow</h3>
+            <h5 class="textStyle1">*Doesnt work yest</h5>
+            
+
+            <div class="container_form"> 
+
+              <form action=""></form>
+
+                <label for="fname">First Name</label>
+                <br>
+                <input type="text" placeholder="Your name...">
+                <br>
+                <br>
+                <label for="lname">Last Name</label>
+                <br>
+                <input type="text" placeholder="Your last name...">
+                <br>
+                <br>
+                <label for="number">Phone Number</label>
+                <br>
+                <input type="tel" placeholder="your phone number...">
+                <br>
+                <br>
+                <label for="email" >Email</label>
+                <br>
+                <input type="email" placeholder="Your email adress...">
+                <br>
+                <br>
+                <label for="massage">Your Massage</label>
+                <br>
+                <textarea name="message" cols="30" rows="10" style="width: 50%;" placeholder="Your massage..."></textarea>
+                <br>
+                <br>
+                <a href="/home"><input type="submit"></a>
+                
+                
+              </form>
+
+            </div>
+
+
+
+          <% } %>
+        </div>
+
+        
+          
+
+      </div>
+    </div>
+
+  </main>

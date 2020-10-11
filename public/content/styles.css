@@ -1,0 +1,15 @@
+/* Assignment 1 - Oleg Gorbunov - 301093263 - Section 3 - 10.10.2020  */
+
+.textStyle1 {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container_form {
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
